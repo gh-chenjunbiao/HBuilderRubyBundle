@@ -1,0 +1,7 @@
+require 'ruble'
+ snippet 'span_class' do |cmd|
+    cmd.trigger = 'spanc'
+    cmd.expansion = "<span class=\"$1\">
+    $0
+</span>"
+  end
